@@ -23,4 +23,7 @@ multiple means , it could be..
   2)application broken down into multuple self executing services(micro services)
     then docker and k8s right thing to be done.
     
+k8s is container orchestration engine, supports any container either docker container
+or rocket container technology. swarm is specific for docker containers.
+
  
