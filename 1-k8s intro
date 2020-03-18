@@ -26,4 +26,18 @@ multiple means , it could be..
 k8s is container orchestration engine, supports any container either docker container
 or rocket container technology. swarm is specific for docker containers.
 
- 
+we can scale as much as we want.
+
+k8s born in google, it is open source and it is written in GO language.
+
+Borg is googles proprietery containerization tool which they used in google search.
+
+now they made some changes and brought Omega. 
+
+k8s is using underlying technologies of best practices of both )mega and Borg.
+
+
+
+
+
+
