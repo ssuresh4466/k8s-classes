@@ -9,6 +9,8 @@ k8s comes into picture not for sigle container but
 it comes into picture when we want to speak with multi container.
 multi means multiple in many ways.
 multiple means , it could be..
+  1)same application redundancy.
+  2)application broken down into multiple parts and all parts speacking with eachother.
   1)we dont want single point of failure.
     this is due to some hard disk his gone bad in a website which has only one server.
     anything happens to server our application going to die.
@@ -21,3 +23,4 @@ multiple means , it could be..
   2)application broken down into multuple self executing services(micro services)
     then docker and k8s right thing to be done.
     
+ 
