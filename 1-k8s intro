@@ -1,0 +1,23 @@
+what is k8s ?
+why do we need k8s ?
+how does it help ?
+how does it work ?
+
+can we run our entire application in one and only docker container ! === No.
+if answer is 'yes' there is no need of k8s.
+k8s comes into picture not for sigle container but 
+it comes into picture when we want to speak with multi container.
+multi means multiple in many ways.
+multiple means , it could be..
+  1)we dont want single point of failure.
+    this is due to some hard disk his gone bad in a website which has only one server.
+    anything happens to server our application going to die.
+    that is single point of failure.
+    we can avoid single point of failure by using redundancy.
+    if we have more than one server, same application hosted at 2 servers.
+    even if one dies, we still have other server.
+    even our entire application in one container, for high availability we need k8s.
+    otherwise we need to execute docker run commands manually.
+  2)application broken down into multuple self executing services(micro services)
+    then docker and k8s right thing to be done.
+    
